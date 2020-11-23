@@ -1,0 +1,29 @@
+/* DEBUG */
+/* debug xs */
+.debug_ [class*="col-xs"]{
+    background-color: lightgreen;
+    border: 1px solid black;
+    height: 100px;
+}
+/* debug md */
+.debug_ [class*="col-md"]{
+    background-color: rgb(226, 146, 55);
+    border: 1px solid black;
+    height: 100px;
+}
+/* debug lg */
+.debug_ [class*="col-lg"]{
+    background-color: rgb(207, 7, 107);
+    border: 1px solid black;
+    height: 100px;
+}
+
+.navbar_menu{
+    height: 90px;
+    background-color: blue;
+}
+
+.jumbotron{
+    height: 500px;
+    background-color: green;
+}
