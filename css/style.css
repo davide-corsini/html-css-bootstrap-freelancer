@@ -5,6 +5,12 @@
     border: 1px solid black;
     height: 100px;
 }
+
+.debug_ .row .row [class*="col-xs"]{
+    background-color: beige;
+    border: 1px solid black;
+    height: 95px;
+}
 /* debug md */
 .debug_ [class*="col-md"]{
     background-color: rgb(226, 146, 55);
@@ -34,4 +40,29 @@
 
 .text_center{
     text-align: center;
+}
+
+main section{
+    margin-bottom: 3%;
+}
+
+#portfoglio {
+    height: 800px;
+    background-color: violet;
+}
+
+#about{
+    height: 400px;
+    background-color: green;
+}
+
+#contact_me{
+    height: 600px;
+    background-color: lightpink;
+}
+
+footer {
+    height: 500px;
+    background-color: red;
+    margin: 3%;
 }
