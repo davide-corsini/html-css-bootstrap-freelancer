@@ -102,5 +102,31 @@ main section {
     border-radius: 3px;
     margin: 0 10px;
 }
+/* /end #portfoglio layout */
+
+/* start #about layout */
+.my_star_white:before,
+.my_star_white:after {
+    content: '';
+    display: inline-block;
+    width: 10%;
+    background-color: white;
+    height: 4px;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+#about p{
+    font-size: 20px;
+    text-align: left;
+    padding: 2.5%;
+}
+
+.my_border_btn_white{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
 
 
