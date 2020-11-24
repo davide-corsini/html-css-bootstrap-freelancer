@@ -1,68 +1,70 @@
-/* DEBUG */
-/* debug xs */
-.debug_ [class*="col-xs"]{
-    background-color: lightgreen;
-    border: 1px solid black;
-    height: 100px;
-}
-
-.debug_ .row .row [class*="col-xs"]{
-    background-color: beige;
-    border: 1px solid black;
-    height: 95px;
-}
-/* debug md */
-.debug_ [class*="col-md"]{
-    background-color: rgb(226, 146, 55);
-    border: 1px solid black;
-    height: 100px;
-}
-/* debug lg */
-.debug_ [class*="col-lg"]{
-    background-color: rgb(207, 7, 107);
-    border: 1px solid black;
-    height: 100px;
-}
-
-.navbar_menu{
+header{
     height: 90px;
+}
+
+main section {
+    margin: 2% 0;
+}
+
+.navbar.my_navbar {
     background-color: blue;
+    border: 0;
+    margin-bottom: 0;
+    padding: 20px 0;
+}    
+
+.navbar.my_navbar .navbar-brand,
+.navbar.my_navbar .navbar-nav li a{
+    text-transform: uppercase;
+    color: white;
 }
 
-.jumbotron{
-    height: 500px;
-    background-color: green;
+.navbar.my_navbar .navbar-nav li a:hover{
+    color: aquamarine;
 }
 
-#portfoglio .row{
-    margin-bottom: 2%;
+/* debug class */
+.debug [class*="col-"]{
+    height: 150px;
+    background-color: pink;
+    border: 1px solid 
 }
 
-.text_center{
-    text-align: center;
+.bg_orange{
+    background-color: orange;
 }
 
-main section{
-    margin-bottom: 3%;
+.my_aqua{
+    background-color: aquamarine;
 }
 
-#portfoglio {
-    height: 800px;
-    background-color: violet;
+.my_star:before,
+.my_star:after {
+    content: '';
+    display: inline-block;
+    width: 10%;
+    background-color: black;
+    height: 4px;
+    border-radius: 3px;
+    margin: 0 10px;
 }
 
-#about{
-    height: 400px;
-    background-color: green;
+.my_star i{
+    font-size: 1.5rem;
+    vertical-align: middle;
 }
 
-#contact_me{
-    height: 600px;
-    background-color: lightpink;
+.my_text_white {
+    color: white;
 }
 
-footer {
-    height: 500px;
-    background-color: red;
-    margin: 3%;
+.my_padding{
+    padding: 2% 0;
 }
+
+
+
+footer{
+    
+}
+
