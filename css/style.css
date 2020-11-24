@@ -232,6 +232,20 @@ footer .special{
 /* /end footer layout */
 /* -------------------- */
 
-@media and screen (max-width: 768px){
-    .xs-font
+@media (min-width: 0px) and (max-width: 767.98px) {
+    .xs-title_small{
+        font-size: 20px;
+    }
+
+    .xs-p_small{
+        font-size: 10px;
+    }
+
+    .xs-jumbo_small{
+        font-size: 20px;
+    }
+
+    .xs-sub_title_small{
+        font-size: 16px;
+    }
 }
