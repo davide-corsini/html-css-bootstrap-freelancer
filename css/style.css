@@ -53,10 +53,10 @@ main section {
 
 /* my padding */
 .my_img_padding{
-    padding: 1%;
+    padding: 2%;
 }
 
-.my_padding{
+.my_padding {
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -126,17 +126,16 @@ header{
 /* start #portfoglio layout */
 
 .my_layover, #portfoglio img {
-    width: 90%;
+    width: 100%;
     border-radius: 6%;
 }
 
 .my_layover{
-    width: 98%;
     display: none;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 1%;
+    left: 0;
 }
 .content_plus{
     padding: 25%;
@@ -215,6 +214,4 @@ background-color: rgba(72, 214, 72, 0.322);
 /* -------------------- */
 /* /end footer layout */
 /* -------------------- */
-footer, main, header{
-    width: 100%;
-}
+
