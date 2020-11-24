@@ -53,7 +53,7 @@ main section {
 
 /* my padding */
 .my_img_padding{
-    padding: 2%;
+    padding: 1%;
 }
 
 .my_padding {
@@ -187,6 +187,20 @@ background-color: rgba(72, 214, 72, 0.322);
     border-radius: 5px;
 }
 
+#contact_me .width_100_border_top{
+    border-top: 1px solid #f5f5f5;
+    margin-top: 4%;
+}
+
+.border_bottom{
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 1%;
+}
+
+.padding_top{
+    padding-top: 2%;
+}
+
 /* ------------------ */
 /*/END MAIN*/
 /* -------------------- */
@@ -206,7 +220,10 @@ background-color: rgba(72, 214, 72, 0.322);
     border-radius: 50%;
     border: 1px solid white;
 }
-
+footer .special{
+    text-decoration: underline;
+    color: #1abc9c;
+}
 .my_copy{
     height: 80px;
     line-height: 80px;
@@ -215,3 +232,6 @@ background-color: rgba(72, 214, 72, 0.322);
 /* /end footer layout */
 /* -------------------- */
 
+@media and screen (max-width: 768px){
+    .xs-font
+}
