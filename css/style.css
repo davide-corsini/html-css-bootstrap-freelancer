@@ -1,3 +1,17 @@
+/* debug class */
+.debug [class*="col-"]{
+    height: 150px;
+    background-color: pink;
+    border: 1px solid 
+}
+
+
+.bg_orange{
+    background-color: orange;
+}
+
+
+/* general rules */
 header{
     height: 90px;
 }
@@ -6,8 +20,28 @@ main section {
     margin: 2% 0;
 }
 
+.my_text_white {
+    color: white;
+}
+
+.my_text_blue{
+    color: #2c3e50
+}
+
+.my_h2_color{
+    color: #333333;
+}
+
+.my_bg_white{
+    background-color: white;
+}
+
+
+
+
+/* navbar layout */
 .navbar.my_navbar {
-    background-color: blue;
+    background-color: #2c3e50;
     border: 0;
     margin-bottom: 0;
     padding: 20px 0;
@@ -22,20 +56,11 @@ main section {
 .navbar.my_navbar .navbar-nav li a:hover{
     color: aquamarine;
 }
+/* /end navbar layout */
 
-/* debug class */
-.debug [class*="col-"]{
-    height: 150px;
-    background-color: pink;
-    border: 1px solid 
-}
-
-.bg_orange{
-    background-color: orange;
-}
-
+/* start jumbo layout */
 .my_aqua{
-    background-color: aquamarine;
+    background-color: #1abc9c;
 }
 
 .my_star:before,
@@ -43,28 +68,39 @@ main section {
     content: '';
     display: inline-block;
     width: 10%;
-    background-color: black;
+    background-color: white;
     height: 4px;
     border-radius: 3px;
     margin: 0 10px;
 }
 
 .my_star i{
-    font-size: 1.5rem;
+    font-size: 30px;
     vertical-align: middle;
-}
-
-.my_text_white {
-    color: white;
+    
 }
 
 .my_padding{
-    padding: 2% 0;
+    padding: 6% 0;
+}
+/* /end jumbo layout */
+
+/* start #portfoglio layout */
+#portfoglio img{
+    width: 100%;
+    padding: 2%;
+    border-radius: 6%;
 }
 
-
-
-footer{
-    
+.my_star_blue:before,
+.my_star_blue:after {
+    content: '';
+    display: inline-block;
+    width: 10%;
+    background-color: #2c3e50;
+    height: 4px;
+    border-radius: 3px;
+    margin: 0 10px;
 }
+
 
