@@ -25,7 +25,7 @@ main section {
 }
 
 .my_text_blue{
-    color: #2c3e50
+    color: #2c3e50;
 }
 
 .my_h2_color{
@@ -36,7 +36,13 @@ main section {
     background-color: white;
 }
 
+.my_bg_blue_nav{
+    background-color: #2c3e50;
+}
 
+.my_bg_blue_dark{
+    background-color: #1a252f;
+}
 
 
 /* navbar layout */
@@ -125,6 +131,29 @@ main section {
 .my_border_btn_white{
     border: 2px solid white;
     border-radius: 5px;
+}
+
+/* start footer layout */
+.social_menu_footer li {
+    padding-right: 1%;
+}
+
+.social_menu_footer li i{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.my_top_padding{
+    padding: 3% 0;
+}
+.my_copy{
+    height: 80px;
+}
+
+#copy{
+    line-height: 80px;
 }
 
 

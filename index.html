@@ -138,21 +138,36 @@
         <!-- /end section #about -->
 
         <!-- start section #contact_me -->
-        <section id="contact_me" class="bg_orange">
-            <div class="container text-center debug">
-                <h2>contact me</h2>
-                <div class="my_star">
+        <section id="contact_me" class="my_bg_white">
+            <div class="container text-center ">
+                <h2 class="text-uppercase">contact me</h2>
+                <div class="my_star_blue my_text_blue">
                     <i class="fas fa-star"></i>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12"></div>
-                    <div class="col-xs-12"></div>
-                    <div class="col-xs-12"></div>
-                    <div class="col-xs-12"></div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">send btn</div>
+                <div class="row text-left">
+                    <div class="col-xs-12 text-capitalize">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputAddress">name</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">email address</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">phone number</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">message</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="my_padding">
+                                <button type="submit" class="btn btn-primary my_text_white my_aqua my_border_btn_white">Sign in</button>
+                            </div>                     
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -161,25 +176,46 @@
     <!-- /end main     -->
 
     <!-- start footer -->
-    <footer class="bg_orange debug my_text_white">
-        <div class="container text-center">
+    <footer class="my_bg_blue_nav my_text_white">
+        <div class="container text-center my_top_padding">
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
-                    location
+                    <h2>Location</h2>
+                    <h4>2215 John Daniel Drive
+                    Clark, MO 65243</h4>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    around the web
+                    <h2>Around the Web</h2>
+                    <ul class="social_menu_footer list-unstyled list-inline">
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-youtube"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    about freelancer
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    copyright
+                    <h2>About Freelancer</h2>
+                    <p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap .</p>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xs-12 my_bg_blue_dark my_copy text-center text-capitalize">
+                <span id="copy">
+                    copyright © your Website 2020 powered by Davide Corsini
+                </span>
+            </div>
+        </div>
+                        
+
     </footer>
     <!-- /end footer -->
 </body>
